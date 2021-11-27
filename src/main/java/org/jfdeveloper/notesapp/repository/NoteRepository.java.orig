@@ -1,0 +1,17 @@
+<<<<<<< HEAD
+package org.jfdeveloper.notesapp.repository;
+
+import org.jfdeveloper.notesapp.entity.Note;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface NoteRepository extends JpaRepository<Note,Long> {
+}
+=======
+package org.jfdeveloper.notesapp.repository;
+
+import org.jfdeveloper.notesapp.entity.Note;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface NoteRepository extends JpaRepository<Note,Long> {
+}
+>>>>>>> fe04ae41af798b4a9be0b4d825ff07ac7fabe54c
